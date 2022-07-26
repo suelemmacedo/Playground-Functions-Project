@@ -1,16 +1,25 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui
+
+function compareTrue(girafa, macaco) {
+  return girafa && macaco;
 }
 
+compareTrue(true, true);
+
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+
+let areaTriangulo = 0;
+
+function calcArea(base, altura) {
+  areaTriangulo = base * altura / 2;
+  return areaTriangulo
 }
+
+calcArea (51,1);
 
 // Desafio 3
 function splitSentence() {
-  // seu código aqui
+  
 }
 
 // Desafio 4
