@@ -11,15 +11,18 @@ compareTrue(true, true);
 let areaTriangulo = 0;
 
 function calcArea(base, altura) {
-  areaTriangulo = base * altura / 2;
-  return areaTriangulo
+  areaTriangulo = (base * altura) / 2;
+  return areaTriangulo;
 }
 
-calcArea (51,1);
+calcArea(51, 1);
 
 // Desafio 3
-function splitSentence() {
-  
+
+function splitSentence(setence) {
+  let resultsentence = setence.split(' ');
+
+  return resultsentence;
 }
 
 // Desafio 4
